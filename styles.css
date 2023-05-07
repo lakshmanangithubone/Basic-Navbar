@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kaushan+Script&family=Lato:wght@400;700&family=Montserrat:wght@500&family=Open+Sans&family=Poppins:wght@500&family=Raleway:wght@300;400;500;600;700;800;900&family=Source+Serif+Pro&family=Ubuntu:wght@500&display=swap");
+
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Source Serif Pro', serif;
+font-family: 'Ubuntu', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  width: 100%;
+}
+
+.navBar {
+  background-color: steelblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo {
+  width: 10%;
+  height: 100px;
+  margin-left: 25px;
+}
+
+.logoImage {
+  height: 100%;
+  width: auto;
+}
+
+.navLinks {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  margin-right: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
